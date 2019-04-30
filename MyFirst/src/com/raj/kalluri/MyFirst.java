@@ -9,9 +9,7 @@ public class MyFirst {
 		
 		System.out.println("Hello Rajendra");
 		
-		System.out.println("Hello Kalluri");
-		
-		System.out.println("Hello this change is from server UI second time ");
+		System.out.println("This is a server change test");
 
 	}
 
