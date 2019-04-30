@@ -6,6 +6,8 @@ public class TestMain {
 		// TODO Auto-generated method stub
 		
 		System.out.println("I am test main");
+		
+		System.out.println("I am editing from server");
 
 	}
 
