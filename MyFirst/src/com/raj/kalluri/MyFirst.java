@@ -10,6 +10,8 @@ public class MyFirst {
 		System.out.println("Hello Rajendra");
 		
 		System.out.println("Hello Kalluri");
+		
+		System.out.println("Hello this change is from server UI ");
 
 	}
 
