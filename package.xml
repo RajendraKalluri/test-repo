@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>45.0</version>
     <types>
+        <members>ARCaseBugJN__c</members>
         <members>ARTestCase__c</members>
         <name>CustomObject</name>
     </types>
