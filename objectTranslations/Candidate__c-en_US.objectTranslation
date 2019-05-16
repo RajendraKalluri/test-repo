@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <label><!-- CandidateID --></label>
+        <name>CandidateID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor --></label>
+        <name>Candidate__c</name>
+        <relationshipLabel><!-- Candidates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Courses Opted --></label>
+        <name>CourseOpted__c</name>
+        <picklistValues>
+            <masterLabel>Devops</masterLabel>
+            <translation><!-- Devops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DotNet</masterLabel>
+            <translation><!-- DotNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java</masterLabel>
+            <translation><!-- Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FName --></label>
+        <name>FName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fees --></label>
+        <name>Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- LName --></label>
+        <name>LName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>Gachibowli</masterLabel>
+            <translation><!-- Gachibowli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kondapur</masterLabel>
+            <translation><!-- Kondapur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madhapur</masterLabel>
+            <translation><!-- Madhapur --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

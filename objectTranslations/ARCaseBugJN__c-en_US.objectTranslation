@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ARCaseBugJN</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ARCaseBugJNs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ARTestCase --></label>
+        <name>ARTestCase__c</name>
+        <relationshipLabel><!-- AR-Bugs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ARbug --></label>
+        <name>ARbug__c</name>
+        <relationshipLabel><!-- ARTestCases --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

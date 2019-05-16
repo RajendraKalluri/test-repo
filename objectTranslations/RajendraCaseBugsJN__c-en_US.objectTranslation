@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RajCaseBugsJnObj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RajCaseBugsJnObjs</value>
+    </caseValues>
+    <fields>
+        <label><!-- RajendraAppBug --></label>
+        <name>RajendraAppBug__c</name>
+        <relationshipLabel><!-- RajendraCases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RajendraCase --></label>
+        <name>RajendraCase__c</name>
+        <relationshipLabel><!-- RajendraAppBugs --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

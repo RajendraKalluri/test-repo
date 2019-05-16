@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ARbug</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ARbugs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ARBugDesc --></label>
+        <name>ARBugDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARBugId --></label>
+        <name>ARBugId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARCasesCount --></label>
+        <name>ARCasesCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- FlagIndicator --></label>
+        <name>FlagIndicator__c</name>
+    </fields>
+    <layouts>
+        <layout>ARbug Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Sorry!! Laptop issue are temporarily not entertained. --></errorMessage>
+        <name>MyBugValidationRule</name>
+    </validationRules>
+</CustomObjectTranslation>
