@@ -47,7 +47,6 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -178,6 +177,17 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Candidates</pluralLabel>
+    <recordTypes>
+        <fullName>MyCand2RecordType</fullName>
+        <active>true</active>
+        <label>MyCand2RecordType</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>MyCandidateRecordType</fullName>
+        <active>true</active>
+        <description>MyCandidateRecordType</description>
+        <label>MyCandidateRecordType</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

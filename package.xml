@@ -825,6 +825,7 @@
         <name>Document</name>
     </types>
     <types>
+        <members>Account.RajendraAccountDuplicateRule</members>
         <members>Account.Standard_Account_Duplicate_Rule</members>
         <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Lead.Standard_Lead_Duplicate_Rule</members>
@@ -832,6 +833,7 @@
     </types>
     <types>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/RajendraCaseEmailTemplate</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
@@ -862,11 +864,13 @@
     <types>
         <members>ARCaseBugJN__c-ARCaseBugJN Layout</members>
         <members>ARTestCase__c-ARTestCase Layout</members>
+        <members>ARTestCase__c-RajendraBugPageLayout</members>
         <members>ARbug__c-ARbug Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Account-RajendraAccountPagelayout</members>
         <members>Address__c-Address Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetRelationship-Asset Relationship Layout</members>
@@ -1002,6 +1006,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Account.RajendraAccountMatchingRule</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
         <members>MyPermissionSet</members>
         <name>PermissionSet</name>
     </types>
@@ -1085,6 +1093,8 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Candidate__c.MyCand2RecordType</members>
+        <members>Candidate__c.MyCandidateRecordType</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
     </types>
@@ -1104,6 +1114,8 @@
         <members>EasternSalesTeam</members>
         <members>InstallationRepairServices</members>
         <members>MarketingTeam</members>
+        <members>MyExecutiveVP</members>
+        <members>MyTechAccountManager</members>
         <members>SVPCustomerServiceSupport</members>
         <members>SVPHumanResources</members>
         <members>SVPSalesMarketing</members>
@@ -1256,5 +1268,21 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Case.Rajendra_High_priority_case_alert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Case.RajendraCaseFieldUpdate</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Case.RajendraCaseRule</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Case.High_Priority_Task_Created</members>
+        <name>WorkflowTask</name>
     </types>
 </Package>
